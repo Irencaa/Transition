@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A webpage</title>
+  <link rel="stylesheet" href="tran.css">
+</head>
+
+<body>
+  <div class="toggle">
+    <div class=""></div>
+    <div class=""></div>
+    <div class="content"></div>
+  </div>
+
+ 
+
+<script>
+  const bodyElem = document.querySelector('body');
+  const toggleElem = document.querySelector('.toggle');
+  toggleElem.onclick = function() {
+  bodyElem.classList.toggle('active');
+  toggleElem.classList.toggle('active');
+}
+</script>
+</body>
+
+</html>
